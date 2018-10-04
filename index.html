@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+
+
+    <title>My website </title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="metodos.js"></script>
+  </head>
+  <body>
+    <h1>HELLO</h1>
+    <button type="button" class="btn btn-primary" onclick="hello()" >GO</button>
+    <button type="button" class="btn btn-primary" onclick="bye()">END</button>
+    <button type="button" class="btn btn-primary" onclick="contar()">INCREMENTAR</button>
+    <button type="button" class="btn btn-primary" id="descontar" data-color = "red">DECREMENTAR</button>
+
+
+    <h2></h2>
+
+    <h3 id="contador">0</h3>
+
+    <form id = "formulario" class="content" >
+      <input id = "texto" type="text" name="" value="">
+      <input type="submit" name="" value="SALUDAR" class="btn btn-primary">
+    </form>
+
+
+    <h1 id = "color">COLOR</h1>
+
+    <div id="botones">
+      <button type="button" class="btn btn-primary"  data-color = "red">Color 1 </button>
+      <button type="button" class="btn btn-primary"  data-color = "blue">Color 2</button>
+      <button type="button" class="btn btn-primary"  data-color = "green">Color 3</button>
+    </div>
+
+
+
+    <h1  id = "hello">COLORES</h1>
+    <select class="form-control" id="colores" name="">
+      <option value="#336dcc"  >color1</option>
+      <option value="#72056b" >color2</option>
+      <option value="#f4e909" >color3</option>
+      <option value="#3e6def" >color4</option>
+    </select>
+
+  </body>
+</html>
